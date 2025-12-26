@@ -1,0 +1,8 @@
+{
+  "name": "Marudeva Consultancy",
+  "description": "A professional financial and legal consultancy platform specializing in GST, Income Tax, and Business Advisory services with an integrated Gemini-powered AI tax assistant.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}

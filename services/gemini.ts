@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 
 // Initialize Gemini API with the provided API key.
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GOOGLE_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const OFFICE_NAME = "Marudeva Consultancy Jamnagar";
 // Simplified search query for better reliability and cleaner URL strings
